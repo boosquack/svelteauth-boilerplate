@@ -4,13 +4,13 @@ Basic Authentication for svelte with routes and toast notifications.
 
 ## Requirements
 
-- Use a writable store to store user data, toast data, and currently logged in user.
-- Use `goto` to redirect to a page
-- Toast Notification must accept a message and a type
-- Use Pick, Omit to create a new type from the given base Types below.
-- Additional types are, ToastCreate, UserRegister, UserLogin
-- `/dashboard` will redirect users to login if there is no user logged in.
-- A `GenericMessage` type, with status and message properties. Should be the default returns from Login,logout,Register
+[x] Use a writable store to store user data, toast data, and currently logged in user.
+[x] Use `goto` to redirect to a page
+[] Toast Notification must accept a message and a type
+[x] Use Pick, Omit to create a new type from the given base Types below.
+[x] Additional types are, ToastCreate, UserRegister, UserLogin
+[x] `/dashboard` will redirect users to login if there is no user logged in.
+[] A `GenericMessage` type, with status and message properties. Should be the default returns from Login,logout,Register
 
 ### Data Types
 

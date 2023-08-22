@@ -1,8 +1,13 @@
-<nav>
-	<a href="/login">Login</a>
-	<a href="/register">Register</a>
-</nav>
+<script>
+	import ToastPop from '../lib/toast/ToastPop.svelte';
+
+</script>
+
 
 <!-- TODO: Put you toasts here -->
+<ToastPop/>
+
+
 
 <slot />
+	
