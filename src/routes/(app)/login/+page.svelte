@@ -64,52 +64,6 @@
                 return;
             }
         }
-        // const checkEmail = (userEmail: string) => {
-		// 	return users.map((user) => user.email).find((email) => email === userEmail);
-		// };
-
-        // const emailValid = checkEmail(inputLogin.email);
-
-        // if (users.find((user: User) => user.email !== undefined)) {
-        //     console.log('Invalid credentials');
-        //     return;
-        // }
-
-        // if (users.find((user: User) => user.password !== inputLogin.password)) {
-        //     console.log('Invalid credentials');
-        //     return;
-        // }
-
-        // const foundUser = users.find(user => user.email === inputLogin.email)
-
-        // if (users.find((user : User) => user.email === email)){
-        //     const user = users.find((user : User) => user.email === email);
-        //     loggedUser.update(() => foundUser);
-        // }
-		// const checkEmail = (userEmail: string) => {
-		// 	return users.map((user) => user.email).find((email) => email === userEmail);
-		// };
-    
-        // const emailValid = checkEmail(inputLogin.email);
-        // const foundUser = users.find(user => user.email === inputLogin.email)
-
-        // if (!emailValid) {
-        //     console.log('Invalid');
-        //     return;
-        // }``
-
-        // if (!foundUser) {
-        //     console.log('Invalid');
-        //     return;
-        // }
-        
-        
-        // if (foundUser.password === inputLogin.password) {
-        //     loggedUser.update(() => foundUser);
-        //     console.log('tama');
-        // }   else{
-        //     console.log("Mali");
-        // };
 
     };
 </script>
